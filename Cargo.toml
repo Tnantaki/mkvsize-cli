@@ -1,0 +1,15 @@
+[package]
+name = "mkvsize-cli"
+version = "0.1.0"
+edition = "2024"
+authors = ["Tnantaki"]
+description = "A tool to analyze track sizes in MKV files"
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/tnantaki/mkvsize-cli"
+readme = "README.md"
+keywords = ["mkv", "matroska", "video", "analysis"]
+categories = ["multimedia", "command-line-utilities"]
+
+[dependencies]
+indexmap = "2.13.0"
+matroska-demuxer = "0.7.0"
